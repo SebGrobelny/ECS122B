@@ -1,6 +1,7 @@
 #include <list>
 #include <string>
 #include <vector>
+#include <iterator>
 
 #include "Zalgorithm.h"
 
