@@ -10,7 +10,7 @@
 //      T is also 1-indexed
 // Output: Indices corresponding to occurrances of P in T
 void ZalgorithmBasedMatching(const std::string& P, const std::string& T, std::list<int>* matches) {
-    std::vector<int>* v{ std::begin(matches), std::end(matches) };
+    std::vector<int>* v{ std::begin(&matches), std::end(&matches) };
     std::string S = P+"$"+T;
     Zalgorithm(S,v);
 }
