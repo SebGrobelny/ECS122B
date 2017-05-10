@@ -11,7 +11,7 @@
 void ZalgorithmBasedMatching(const std::string& P, const std::string& T, std::list<int>* matches) {
     std::vector<int>* v{ std::begin(matches), std::end(matches) };
     std::string S = P+"$"+T;
-    Zalgorithm(S,matches);
+    Zalgorithm(S,v);
 }
 
 // Input: String S, data structure Z to store result
